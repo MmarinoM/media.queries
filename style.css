@@ -1,7 +1,8 @@
 body{
     background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
-    font-size: 2em;
+    font-size: 0.8em;
     color: #BEE7E8;
+    text-align: justify;
 }
 /* .medium{
     display: none;
@@ -29,12 +30,23 @@ body{
     background-color: #7D8CC4;
 }
 
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Fira Sans', sans-serif;
+}
+    section>div>p{
+        padding: 20px;
+    }
+    section>div{
+        margin-top: 50px;
+    }
 
 
 @media screen and (min-width: 300px){
     body{
         background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
-        font-size: 1em;
+        font-size: 0.8em;
     }
     /* .medium{
         display: inline;
@@ -51,6 +63,12 @@ body{
         width: 99%;
         
     }
+    /* section>div>p{
+        padding: 20px;
+    }
+    section>div{
+        margin-top: 50px;
+    } */
     
     
 
@@ -58,7 +76,7 @@ body{
 @media screen and (min-width: 768px){
     body{
         background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
-        font-size: 0.5em;
+        font-size: 1.6em;
     }
     /* .large{
         display: inline;
@@ -75,5 +93,10 @@ body{
         width: 33%;
 
     }
-    
+    /* section>div>p{
+        padding: 20px;
+    }
+    section>div{
+        margin-top: 50px;
+    } */
 }
